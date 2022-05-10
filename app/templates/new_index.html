@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function validateForm() {
+        var x = document.forms["myForm"]["price"].value;
+        if (x == "" || x == null) {
+          alert("Price must be filled out");
+          return false;
+        }
+      }
+    </script>
+    <title>CSA Farm Matching</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+      h1 {
+      font-weight: 400;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 3px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px #ccc; 
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+      }
+      input:hover, textarea:hover {
+      outline: none;
+      border: 1px solid #095484;
+      }
+      th, td {
+      width: 28%;
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      vertical-align: unset;
+      line-height: 18px;
+      font-weight: 400;
+      word-break: break-all;
+      }
+      .first-col {
+      width: 16%;
+      text-align: left;
+      }
+      textarea:hover {
+      outline: none;
+      border: 1px solid #1c87c9;
+      }
+      table {
+      width: 100%;
+      }
+      textarea {
+      width: calc(100% - 6px);
+      }
+      .question {
+      padding: 15px 0 5px;
+      color: #095484;
+      }
+      .question-answer label {
+      display: block;
+      padding: 0 20px 10px 0;
+      }
+      .question-answer input {
+      width: auto;
+      }
+      .btn-block {
+      margin-top: 20px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #095484;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background-color: #0666a3;
+      }
+      @media (min-width: 568px) {
+      th, td {
+      word-break: keep-all;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="testbox">
+      <form name="myForm" action="/result" onsubmit="validateForm()" method="POST" required>
+        <h1>CSA Farm Matching</h1>
+        <p class="question">What price would you be willing to pay for a CSA share? btw:[1-1500]</p>
+        <input type="text" id="price" name="price">
+        <p class="question">Would you like home delivery?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="1" name="home delivery" /> Yes</label>
+          <label><input type="radio" value="0" name="home delivery" /> No</label>
+        </div>
+        <p class="question">Would you like to use SNAP benefits?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="1" name="SNAP" /> Yes</label>
+          <label><input type="radio" value="0" name="SNAP" /> No</label>
+        </div>
+        <p class="question">What products would you like in your CSA?</p>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>Yes</th>
+            <th>No</th>
+          </tr>
+          <tr>
+            <td class="first-col">Vegetables</td>
+            <td><input type="radio" value="1" name="vegetables" /></td>
+            <td><input type="radio" value="0" name="vegetables" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Meat</td>
+            <td><input type="radio" value="1" name="meat" /></td>
+            <td><input type="radio" value="0" name="meat" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Eggs</td>
+            <td><input type="radio" value="1" name="eggs" /></td>
+            <td><input type="radio" value="0" name="eggs" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Fish</td>
+            <td><input type="radio" value="1" name="fish" /></td>
+            <td><input type="radio" value="0" name="fish" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Fruit</td>
+            <td><input type="radio" value="1" name="fruit" /></td>
+            <td><input type="radio" value="0" name="frui" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Milk</td>
+            <td><input type="radio" value="1" name="milk" /></td>
+            <td><input type="radio" value="0" name="milk" /></td>
+          </tr>
+        </table>
+        <p class="question">What share size would you like?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="0" name="size" /> Small</label>
+          <label><input type="radio" value="1" name="size" /> Full</label>
+        </div>
+        <p class="question">What share season would you like?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="0" name="season" /> Main</label>
+          <label><input type="radio" value="1" name="season" /> Fall</label>
+        </div>
+        <p class="question">How often would you like to pickup your share?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="0" name="frequency" /> Biweekly</label>
+          <label><input type="radio" value="1" name="frequency" /> Weekly</label>
+          <label><input type="radio" value="2" name="frequency" /> Monthly</label>
+        </div>
+        <p class="question">Where would you like to pickup your share?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="0" name="location" /> SE Portland</label>
+          <label><input type="radio" value="1" name="location" /> NE Portland</label>
+          <label><input type="radio" value="2" name="location" /> SW Portland</label>
+          <label><input type="radio" value="3" name="location" /> NW Portland</label>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

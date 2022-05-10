@@ -1,0 +1,89 @@
+<html>
+<body>
+	<h3>CSA Farm Prediction Form</h3>
+
+<div>
+<form action="/result" method="POST">
+	<label for="price">Price</label>
+	<input type="text" id="price" name="price">btw:[1-1500]
+    <br>
+	<label for="home delivery">Home delivery</label>
+	<select id="home delivery" name="home delivery">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="SNAP">SNAP</label>
+	<select id="SNAP" name="SNAP">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="vegetables">Vegetables?</label>
+	<select id="vegetables" name="vegetables">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="meat">Meat?</label>
+	<select id="meat" name="meat">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="eggs">Eggs?</label>
+	<select id="eggs" name="eggs">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="fish">Fish?</label>
+	<select id="fish" name="fish">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="fruit">Fruit?</label>
+	<select id="fruit" name="fruit">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="milk">Milk?</label>
+	<select id="milk" name="milk">
+	<option value="0">No</option>
+	<option value="1">Yes</option>
+	</select>
+	<br>
+	<label for="size">Share Size</label>
+	<select id="size" name="size">
+	<option value="0">Small</option>
+	<option value="1">Full</option>
+	</select>
+	<br>
+	<label for="season">Share Season</label>
+	<select id="season" name="season">
+	<option value="0">Main</option>
+	<option value="1">Fall</option>
+	</select>
+	<br>
+	<label for="frequency">Share Frequency</label>
+	<select id="frequency" name="frequency">
+	<option value="0">biweekly</option>
+	<option value="1">weekly</option>
+	<option value="2">monthly</option>
+	</select>
+	<br>
+	<label for="location">Portland Pickup Location</label>
+	<select id="location" name="location">
+	<option value="0">SE Portland</option>
+	<option value="1">NE Portland</option>
+	<option value="2">SW Portland</option>
+	<option value="3">NW Portland</option>
+	</select>
+	<br>
+	<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

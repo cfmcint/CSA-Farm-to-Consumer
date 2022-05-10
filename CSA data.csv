@@ -1,0 +1,91 @@
+﻿Name,price,size,season,frequency,home delivery,SNAP,pickup location,vegetables,meat,eggs,fish,fruit,milk,Farm
+Elisabeth Harmon,675,small,main,weekly,0,0,NE Portland,1,0,0,0,0,0,Full Cellar Farm
+Londyn Houston,500,small,main,weekly,0,1,SW Portland,1,0,0,0,0,0,Good Rain Farm
+Sylvia Barnes,675,full,main,weekly,0,1,SE Portland,1,0,0,0,0,0,Lil Starts Farm
+Juliet Schroeder,600,full,main,weekly,0,1,SE Portland,1,1,0,0,0,0,Three Goats Farm
+Stephen Mckinney,1000,full,main,weekly,0,0,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Kyle Cameron,518,full,main,biweekly,1,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Bradley Andersen,720,full,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Kasama Farm
+0ah Kirk,660,full,main,monthly,1,0,NE Portland,0,1,0,0,0,0,PK Pastures
+Georgia Compton,930,full,main,monthly,1,0,SW Portland,0,1,0,0,0,0,Totum Farm
+Conrad Thornton,700,full,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Good Rain Farm
+Rocco Osborne,360,small,main,biweekly,0,0,NW Portland,1,0,0,0,0,0,Kasama Farm
+Karma Cunningham,500,small,main,weekly,0,1,NW Portland,1,0,0,0,0,0,Good Rain Farm
+Jayson Lucas,630,small,main,monthly,1,1,NE Portland,0,1,1,0,0,0,Totum Farm
+Jaden Rose,630,small,main,monthly,1,1,NW Portland,0,1,1,0,0,0,Totum Farm
+Drake Bonilla,1300,full,main,weekly,0,1,NE Portland,1,0,0,0,0,0,Full Cellar Farm
+Jayleen Faulkner,350,small,main,weekly,0,1,SE Portland,1,1,0,0,0,0,Three Goats Farm
+Aidyn Ballard,1000,full,main,weekly,0,1,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Rodolfo Sampson,340,small,main,biweekly,0,0,SE Portland,1,0,0,0,0,0,Lil Starts Farm
+Giovanny Osborn,675,small,main,weekly,0,1,NE Portland,1,0,0,0,0,0,Full Cellar Farm
+Kaila Guerra,1036,full,main,weekly,1,1,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Jordin Petersen,600,full,main,weekly,0,1,SE Portland,1,1,0,0,0,0,Three Goats Farm
+Monserrat Lucero,360,small,main,biweekly,0,1,NW Portland,1,0,0,0,0,0,Kasama Farm
+Nina Melton,930,full,main,monthly,1,1,SW Portland,0,1,1,0,0,0,Totum Farm
+Toby Stevens,675,small,main,weekly,0,1,SE Portland,1,0,0,0,0,0,Full Cellar Farm
+Reece Chandler,720,full,main,weekly,0,1,NW Portland,1,0,0,0,0,0,Kasama Farm
+Armani Nichols,545,full,main,monthly,1,1,SW Portland,0,1,0,0,0,0,Totum Farm
+Michael Kirby,1000,full,main,weekly,0,0,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Danna Stanton,340,small,main,biweekly,0,1,NE Portland,1,0,0,0,0,0,Lil Starts Farm
+Nathaniel Whitehead,300,small,main,monthly,1,0,NE Portland,0,1,1,0,0,0,PK Pastures
+Brendon Galloway,200,small,fall,weekly,0,0,SE Portland,1,0,0,0,0,0,Good Rain Farm
+Tyler Williams,790,full,main,weekly,0,1,NE Portland,1,0,1,1,0,0,Stoneboat Farm
+Jadon Acosta,518,full,main,biweekly,1,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Damien Barajas,1036,full,main,weekly,0,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Maddox Roberts,300,full,main,monthly,1,0,NE Portland,0,1,0,0,0,0,PK Pastures
+Lia Sherman,500,small,main,weekly,0,1,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Joaquin Best,790,full,main,weekly,0,0,NE Portland,1,0,0,0,0,1,Stoneboat Farm
+Franco Wyatt,360,small,main,biweekly,0,1,NW Portland,1,0,0,0,0,0,Kasama Farm
+Kailey Trevi0,350,small,main,weekly,0,0,SE Portland,1,1,0,0,0,0,Three Goats Farm
+Morgan Shepherd,500,small,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Good Rain Farm
+Jackson Moore,475,small,main,weekly,0,1,NE Portland,1,0,1,0,0,0,Stoneboat Farm
+Luke Butler,340,small,main,biweekly,0,0,NE Portland,1,0,0,0,0,0,Lil Starts Farm
+Brian Rice,518,full,main,biweekly,1,1,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Kenley Chung,790,full,main,weekly,0,0,NE Portland,1,0,0,1,0,1,Stoneboat Farm
+Cristian Avila,518,full,main,biweekly,1,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Imani Mcclain,500,small,main,weekly,0,0,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Eliana Walker,300,small,main,monthly,1,0,NE Portland,0,1,0,0,1,0,PK Pastures
+Mike Shields,790,full,main,weekly,0,1,NE Portland,1,0,0,0,0,0,Stoneboat Farm
+Jaelyn Weiss,660,full,main,monthly,1,0,NE Portland,0,1,0,0,0,1,PK Pastures
+Caleb Gross,720,full,main,weekly,0,0,NE Portland,1,0,1,0,0,0,Kasama Farm
+Rachael Mccall,518,full,main,biweekly,0,1,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Ava Cox,360,small,main,biweekly,0,1,NW Portland,1,0,0,0,0,0,Kasama Farm
+Mildred Gates,545,full,main,monthly,1,1,NE Portland,0,1,0,0,0,0,Totum Farm
+Leandro Mora,1000,full,main,weekly,0,0,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Roksana Grey,340,small,main,weekly,0,1,NE Portland,1,0,0,0,0,0,Lil Starts Farm
+Daniela Sparrow,300,small,main,monthly,1,0,NE Portland,0,1,1,0,0,0,PK Pastures
+Veronika Morrison,200,small,fall,weekly,0,0,SE Portland,1,0,0,0,0,0,Good Rain Farm
+Ikrah Quintana,790,full,main,weekly,0,0,NE Portland,1,0,1,1,0,0,Stoneboat Farm
+Shauna Moss,518,full,main,biweekly,1,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Francesca Meadows,1036,full,main,weekly,0,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Tymoteusz Smith,300,small,main,monthly,1,0,NE Portland,0,1,0,0,0,0,PK Pastures
+Marcia Churchill,500,small,main,weekly,0,1,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Lila Howell,790,full,main,weekly,0,0,NE Portland,1,0,0,0,0,1,Stoneboat Farm
+Jozef Robin,360,small,main,biweekly,0,0,NW Portland,1,0,0,0,0,0,Kasama Farm
+Micah Bolton,350,small,main,weekly,0,0,SE Portland,1,1,0,0,0,0,Three Goats Farm
+Kaleem Stanley,500,small,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Good Rain Farm
+Reeva Cardenas,475,small,main,weekly,0,1,NE Portland,1,0,1,0,0,0,Stoneboat Farm
+Kareem Allman,340,small,main,biweekly,0,0,NE Portland,1,0,0,0,0,0,Lil Starts Farm
+Frederick Coombes,518,full,main,biweekly,1,1,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Theo Valencia,790,full,main,weekly,0,1,NE Portland,1,0,0,1,0,1,Stoneboat Farm
+Romany Mendoza,1036,full,main,weekly,0,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Lola Mackay,500,small,main,weekly,0,0,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Cataleya Matthews,300,small,main,monthly,1,0,NE Portland,0,1,0,0,0,0,PK Pastures
+Raife Mercer,475,small,main,weekly,0,1,NE Portland,1,0,0,0,0,1,Stoneboat Farm
+Debra Beech,660,full,main,monthly,1,0,NE Portland,0,1,1,0,0,0,PK Pastures
+Carolina Dean,720,full,main,weekly,0,1,NE Portland,1,0,0,0,0,0,Kasama Farm
+Chaya Galvan,518,full,main,biweekly,0,1,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Amaan Barlow,675,small,main,weekly,0,0,NE Portland,1,0,0,0,0,0,Full Cellar Farm
+Maksim Gibbs,500,small,main,weekly,0,1,SW Portland,1,0,0,0,0,0,Good Rain Farm
+Lainey Little,675,full,main,weekly,0,1,SE Portland,1,0,0,0,0,0,Lil Starts Farm
+Leroy Whittle,600,full,main,weekly,0,1,SE Portland,1,1,0,0,0,0,Three Goats Farm
+Honey Arias,1000,full,main,weekly,0,0,NE Portland,1,0,0,0,1,0,The Side Yard Farm
+Iram Conley,518,full,main,biweekly,1,0,SE Portland,1,0,0,0,0,0,Sun Love Farm
+Kenneth Cantu,720,full,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Kasama Farm
+Keeley Wallace,660,full,main,monthly,1,0,NE Portland,0,1,0,0,0,0,PK Pastures
+Laurence Griffin,340,small,main,biweekly,0,0,SE Portland,1,0,0,0,0,0,Lil Starts Farm
+Nadine Wagner,700,full,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Good Rain Farm
+Anderson Clayton,360,small,main,biweekly,0,0,NE Portland,1,0,0,0,0,0,Kasama Farm
+Jessie Poole,500,small,main,weekly,0,0,NW Portland,1,0,0,0,0,0,Good Rain Farm
+Cathy Chan,630,small,main,monthly,1,1,NE Portland,0,1,1,0,0,0,Totum Farm
+Cairon Mcgill,630,small,main,monthly,1,1,NW Portland,0,1,1,0,0,0,Totum Farm

@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+    <style>
+        .container {
+          text-align: center;
+          color: white;
+        }
+        .centered {
+            position: absolute;
+            background-color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+            top: 50%;
+            left: 50%;
+            font-size: 500%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <div class="container">
+        <img src="https://static.wixstatic.com/media/a11b13_59819aac4b7646a3ab14cad83aa62231~mv2.jpg/v1/fill/w_750,h_500,al_c,q_85,enc_auto/a11b13_59819aac4b7646a3ab14cad83aa62231~mv2.jpg" alt="" style="width: 100%;">
+        <div class="centered">
+            {{ prediction }}
+        </div>
+    </div>
+</html>
